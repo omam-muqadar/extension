@@ -7,7 +7,7 @@ var e,t;"function"==typeof(e=globalThis.define)&&(t=e,e=null),function(t,o,n,r,a
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 1);
     color: white;
     font-family: Arial, sans-serif;
     font-size: 24px;
