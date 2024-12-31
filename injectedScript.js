@@ -1,3 +1,5 @@
+const LETHUB = "https://stageapp.lethub.co/#/"
+
 ;(function () {
   function retrieveUserData() {
     console.log("Attempting to retrieve user data from localStorage...")
@@ -34,7 +36,7 @@
     }
   }
 
-  if (window.location.href === "https://lethub-uat.netlify.app/#/") {
+  if (window.location.href === LETHUB) {
     retrieveUserData()
   } else {
     console.log("URL does not match. Function will not run.")
