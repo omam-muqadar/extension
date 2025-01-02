@@ -9,6 +9,7 @@ const LETHUB = "https://stageapp.lethub.co/#/"
     const username = localStorage.getItem("username")
     const companyName = localStorage.getItem("companyName")
     const role = localStorage.getItem("role")
+    const token = localStorage.getItem("token")
 
     console.log("userId:", userId)
     console.log("userEmail:", userEmail)
@@ -16,13 +17,14 @@ const LETHUB = "https://stageapp.lethub.co/#/"
     console.log("companyName:", companyName)
     console.log("role:", role)
 
-    if (userId && userEmail && username && companyName && role) {
+    if (userId && userEmail && username && companyName && role && token) {
       const userData = {
         userId: userId,
         userEmail: userEmail,
         username: username,
         companyName: companyName,
-        role: role
+        role: role,
+        token: token
       }
 
       console.log("All required data found. Posting message:", userData)
