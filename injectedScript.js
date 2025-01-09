@@ -1,4 +1,4 @@
-const LETHUB = "https://stageapp.lethub.co/#/"
+const LETHUB = "https://app.lethub.co/#/"
 
 ;(function () {
   function retrieveUserData() {
