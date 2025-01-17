@@ -46,8 +46,8 @@
 // })()
 
 const LETHUB = "https://app.lethub.co/#/"
-const MAX_RETRIES = 20 // Number of times to retry
-const RETRY_INTERVAL = 500 // Interval in ms between retries
+const MAX_RETRIES = 160 // Number of times to retry
+const RETRY_INTERVAL = 1000 // Interval in ms between retries
 
 ;(function () {
   let retryCount = 0
